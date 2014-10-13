@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Book My Suite</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+		function lalit(){
+			document.getElementById("slide").src = "rest/3.jpg";
+			document.getElementById("slidehead").innerHTML = "THE LALIT GOA";
+			document.getElementById("slidedesc").innerHTML = "The Lalit Golf & Spa Resort Goa is an all suite resort nestled on 85 acres along the pristine Goan coastline. The resort, cradled by the majestic Sahyadari range along the confluence of the Talpone River, offers breathtaking view of the Arabian Sea.";
+		}
+		function marriott(){
+			document.getElementById("slide").src = "rest/8.jpg";
+			document.getElementById("slidehead").innerHTML = "THE MARRIOTT";
+			document.getElementById("slidedesc").innerHTML = "At the Goa Marriott Resort & Spa, we partake in your celebrations! Your thinking stops once this sun-kissed beauty in the heart of Goa’s capital has embarked on hosting your event!";
+		}
+		function ghyatt(){
+			document.getElementById("slide").src = "rest/1.jpg";
+			document.getElementById("slidehead").innerHTML = "GRAND HYATT";
+			document.getElementById("slidedesc").innerHTML = "Grand Hyatt Goa is a five-star luxury hotel located by Bambolim Bay in Goa, India. Designed in 1990, the construction of the hotel was started initially in 1995 by the Dynamix Group and thereafter on the formation of DB Group.";
+		}
+	</script>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<a href="index.html" id="logo"><img src="images/bms.png" alt="Logo"></a>
+			<ul>
+				<li class="current">
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="hotoffers.html">HOT OFFERS</a>
+				</li>
+				<li>
+					<a href="partybookings.html">PARTY BOOKINGS</a>
+				</li>
+				<li>
+					<a href="upcomingevents.html">UPCOMING EVENTS</a>
+					<ul>
+						<li>
+                        	<a href="foodfest.html">FOOD FEST 2014</a>
+						</li>
+					</ul>
+				</li>
+                <li>
+					<a href="dinner.html">DINNER</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACT US</a>
+				</li>
+			</ul>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div>
+					<a href="index.html"><img id="slide" width="900" src="rest/1.jpg" alt="Image"></a>
+					<div>
+						<h1><a id="slidehead" href="http://goa.grand.hyatt.com/">GRAND HYATT</a></h1>
+						<p style="text-align:justify" id="slidedesc">
+							Grand Hyatt Goa is a five-star luxury hotel located by Bambolim Bay in Goa, India. Designed in 1990, the construction of the hotel was started initially in 1995 by the Dynamix Group and thereafter on the formation of DB Group.<a href="http://goa.grand.hyatt.com/" class="continue"></a>
+						</p>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a href="index.html" class="figure"><img src="rest/1.png" alt="Image"></a>
+						<h3><a onClick="ghyatt()" style="cursor:pointer">GRAND HYATT</a></h3>
+						<p style="text-align:justify">
+							Five-star luxury hotel located by Bambolim Bay in Goa, India.
+					  	</p>
+					</li>
+					<li>
+						<a href="index.html" class="figure"><img width="88" src="rest/7.png" alt="Image"></a>
+						<h3><a onClick="lalit()" style="cursor:pointer">THE LALIT</a></h3>
+						<p style="text-align:justify">
+							The most exclusive FIVE-STAR Hotel in Goa.
+					  	</p>
+					</li>
+                  <li class="last">
+						<a href="index.html" class="figure"><img width="88" src="rest/11.jpg" alt="Image"></a>
+						<h3><a onClick="marriott()" style="cursor:pointer">GOA MARRIOTT</a></h3>
+						<p style="text-align:justify">
+							Finest Hospitality at Marriott Miramar, Goa.
+					  	</p>
+					</li>
+				</ul>
+			</div>
+			<div class="body">
+				<h1>Featured Restaurants</h1>
+				<ul>
+					<li>
+						<a class="feature" href="index.html"><img src="rest/2.jpg" alt="Image"></a>
+						<h2>Martin's Corner</h2>
+						<p>
+							Betalbatim Goa.
+						</p>
+					</li>
+					<li>
+						<a class="feature" href="index.html"><img src="rest/2.jpg" alt="Image"></a>
+						<h2>Martin's Corner</h2>
+						<p>
+							Betalbatim Goa.
+						</p>
+					</li>
+                    <li>
+						<a class="feature" href="index.html"><img src="rest/2.jpg" alt="Image"></a>
+						<h2>Martin's Corner</h2>
+						<p>
+							Betalbatim Goa.
+						</p>
+					</li>
+                    <li>
+						<a class="feature" href="index.html"><img src="rest/2.jpg" alt="Image"></a>
+						<h2>Martin's Corner</h2>
+						<p>
+							Betalbatim Goa.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<img src="rest/10.jpg" alt="Image">
+				<div>
+					<h1>Most Booked Restaurants</h1>
+					<ol>
+						<li>
+							<p>
+								Nostalgia Goan Cusine
+                            </p>
+						</li>
+						<li>
+							<p>
+                            	Gaylin's Chinese Restaurant
+							</p>
+						</li>
+						<li>
+							<p>
+								Forrest Veg Food Court
+							</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<div>
+					<h1>Most Booked Restaurants</h1>
+					<ul>
+						<li>
+							<a href="index.html">Nostalgia Goan Cusine</a>
+						</li>
+						<li>
+							<a href="index.html">Gaylin's Chinese Restaurant</a>
+						</li>
+						<li>
+							<a href="index.html">Forrest Veg Food Court</a>
+						</li>
+					</ul>
+				</div>
+                <div>
+					<h1>Most Reviewed Restaurants</h1>
+					<ul>
+						<li>
+							<a href="index.html">Nostalgia Goan Cusine</a>
+						</li>
+						<li>
+							<a href="index.html">Gaylin's Chinese Restaurant</a>
+						</li>
+						<li>
+							<a href="index.html">Forrest Veg Food Court</a>
+						</li>
+					</ul>
+				</div>
+                <div>
+					<h1>Most Booked Restaurants</h1>
+					<ul>
+						<li>
+							<a href="index.html">Nostalgia Goan Cusine</a>
+						</li>
+						<li>
+							<a href="index.html">Gaylin's Chinese Restaurant</a>
+						</li>
+						<li>
+							<a href="index.html">Forrest Veg Food Court</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h1>Connect</h1>
+					<a href="" target="_blank" id="mail">Email us</a>
+					<a href="" target="_blank" id="facebook">Facebook</a>
+					<a href="" target="_blank" id="twitter">Twitter</a>
+					<a href="" target="_blank" id="googleplus">Google+</a>
+				</div>
+			</div>
+            <p>
+				Book My Suite &copy; 2014  | All Rights Reserved
+			</p>
+		</div>
+	</div>
+</body>
+</html>
